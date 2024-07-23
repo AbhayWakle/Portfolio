@@ -34,7 +34,7 @@ const Hero = () => {
 
                     <TextGenerateEffect
                         className='text-center text-[40px] md:text-5xl lg:text-6xl'
-                        words='Transforming Concepts into Seamless User Experiences'
+                        words='Explore my journey through code and creativity.'
                     />
 
                     <p className='text-center md:tracking-wider mb-4 text-sm
@@ -42,13 +42,11 @@ const Hero = () => {
                         Hi, I&apos;m Abhay, a Full Stack Developer based in India.
                     </p>
 
-                    <a href="#about">
+                    <a href="/Front_End_Developer_Cv.pdf" download>
                         <MagicButton
-
-                            title='Show my work'
+                            title='Download Resume'
                             icon={<FaLocationArrow />}
                             position='right'
-
                         />
                     </a>
                 </div>
@@ -57,4 +55,4 @@ const Hero = () => {
     )
 }
 
-export default Hero
+export default Hero;

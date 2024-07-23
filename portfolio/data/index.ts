@@ -2,7 +2,7 @@ export const navItems = [
   { name: "Home", link: "#home" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Tech Stack", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -40,7 +40,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "I am actively seeking new career opportunities.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -51,7 +51,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently learning new web technologies",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -74,101 +74,151 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    title: "Promptful: Next.js Web Application for Prompt Management",
+    des: "Developed and launched a website, Promptful, to create and store prompts using Next.js, integrated with Google Authentication.",
+    img: "/p3.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/material.svg", "/express.svg", "/mongodb.svg", "/oauth.svg"],
+    link: "https://github.com/adrianhajdin/ai_saas_app",
+    webname: "Promptful",
+    webLink: "https://github.com/adrianhajdin/ai_saas_app"
+
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Transform Your Health with Personal Fit Journey",
+    des: "Discover personalized fitness plans, expert tips, and a supportive community to achieve your health goals.",
     img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    iconLists: ["/re.svg", "/tail.svg", "/javascript.svg", "/rapidapi-icon.svg", "/material.svg", "/mongodb.svg"],
+    link: "https://github.com/AbhayWakle/Fitness",
+    webname: "Fit Journey",
+    webLink: "https://github.com/AbhayWakle/Fitness"
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    title: "Where Every Step Tells a Story: Adap Shoes",
+    des: "Explore the world of footwear with our captivating shoes showcase using Front-end on Adap Shoes.",
+    img: "/p1.svg",
+    iconLists: ["/html.svg", "/css.svg", "/bootstrap.svg", "/javascript.svg", "/github.svg", "/vs.svg"],
+    link: "https://abhaywakle.github.io/Adap-Shoes/",
+    webname: "Adap Shoes",
+    webLink: "https://github.com/abhaywakle/Adap-Shoes/"
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "MovieFlix - Explore your favourite Movies",
+    des: "Search and explore your favoutite movies and get information about their sequels",
     img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    iconLists: ["/re.svg", "/tail.svg", "/javascript.svg", "/github.svg", "/vs.svg"],
+    link: "https://github.com/AbhayWakle/movieflix",
+    webname: "MovieFlix",
+    webLink: "https://github.com/AbhayWakle/movieflix"
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I use Aceternity UI because it's the Swiss Army knife of design tools - sturdy, easy to wield, and always responsive, like a well-trained butler. Its consistent user experience is like having a personal assistant, and the community support feels like a group hug from fellow developers.",
+    name: "Aceternity UI",
+    title: "Using Aceternity UI enhances development.",
+    techimg: "/cloud.svg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I use React because its component-based architecture is like Lego for adults, making complex UIs a breeze to build. The virtual DOM is like caffeine for performance, and the bustling community and rich ecosystem are a developer's playground. React's flexibility and reusable components keep my development life efficient and sane.",
+    name: "React js",
+    title: "React simplifies complex UI development.",
+    techimg: "/app.svg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "With 2 years of JavaScript under my belt, I harness its superhero-like versatility for dynamic web adventures, interactive shenanigans, and even server-side sorcery. JavaScript's omnipresence, along with its vast library of sidekicks and powerful frameworks, turbocharges my quest for efficient and scalable app development.",
+    name: "Javascript",
+    title: "JavaScript powers dynamic web interactions.",
+    techimg: "/javascript.svg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "With 4 years of experience, I wield HTML and CSS like a web wizard. HTML is my magic wand, structuring content effortlessly, while CSS is my enchanted paintbrush, styling pages into pixel-perfect masterpieces. Together, they turn bland websites into spellbinding digital adventures!",
+    name: "HTML",
+    title: "HTML: Skeleton of the internet.",
+    techimg: "/html.svg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "With a year of experience, Next.js is my trusty sidekick in the wild world of web development. It's like having a magical teleportation device for creating lightning-fast React applications. With its SSR powers and automatic code splitting, Next.js turns the mundane into the extraordinary, one line of code at a time.",
+    name: "Next js",
+    title: "Next.js: Making React Fly High!",
+    techimg: "/host.svg",
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
+    name: "Aceternity ui",
     img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    nameImg: "Aceternity",
   },
   {
     id: 2,
-    name: "appwrite",
+    name: "React js",
     img: "/app.svg",
-    nameImg: "/appName.svg",
+    nameImg: "React js",
   },
   {
     id: 3,
-    name: "HOSTINGER",
+    name: "Next js",
     img: "/host.svg",
-    nameImg: "/hostName.svg",
+    nameImg: "Next js",
   },
   {
     id: 4,
-    name: "stream",
+    name: "GitHub",
     img: "/s.svg",
-    nameImg: "/streamName.svg",
+    nameImg: "GitHub",
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "MongoDb",
+    img: "/mongodb.svg",
+    nameImg: "MongoDb",
+  },
+  {
+    id: 6,
+    name: "Javascript",
+    img: "/javascript.svg",
+    nameImg: "Javascript",
+  },
+  {
+    id: 7,
+    name: "Express",
+    img: "/express.svg",
+    nameImg: "Express",
+  },
+  {
+    id: 8,
+    name: "HTML",
+    img: "/html.svg",
+    nameImg: "HTML",
+  },
+  {
+    id: 9,
+    name: "CSS",
+    img: "/css.svg",
+    nameImg: "CSS",
+  },
+  {
+    id: 10,
+    name: "Tailwind",
+    img: "/tail.svg",
+    nameImg: "CSS",
+  },
+  {
+    id: 11,
+    name: "Bootstrap",
+    img: "/bootstrap.svg",
+    nameImg: "Bootstrap",
   },
 ];
 
@@ -182,16 +232,16 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Full Stack Intern",
+    desc: "As a full stack intern, I weave seamless user interfaces with powerful back-end functionality, crafting complete digital experiences.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Freelance Projects",
+    desc: "As a freelancer, I transform ideas into reality, delivering customized, end-to-end digital solutions for clients.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
@@ -207,13 +257,21 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/AbhayWakle", // Example GitHub link
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/leetcode.svg",
+    link: "https://leetcode.com/u/abhay_xiv/", // Example Twitter link
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/abhay-wakle-559a96228/", // Example LinkedIn link
+  },
+  {
+    id: 4,
+    img: "/insta.svg",
+    link: "https://www.instagram.com/abhay_xiv/", // Example LinkedIn link
   },
 ];

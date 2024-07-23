@@ -52,8 +52,8 @@ export const BentoGridItem = ({
     spareImg?: string;
 }) => {
 
-    const leftLists = ["TypeScript", "Express", "ReactJS"];
-    const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+    const leftLists = ["TypeScript", "Express", "ReactJs"];
+    const rightLists = ["JavaScript", "NextJs", "MongoDb"];
 
     const [copied, setCopied] = useState(false);
 
@@ -156,10 +156,7 @@ export const BentoGridItem = ({
 
                     {id === 6 && (
                         <div className="mt-5 relative text-center">
-                            {/* button border magic from tailwind css buttons  */}
-                            {/* add rounded-md h-8 md:h-8, remove rounded-full */}
-                            {/* remove focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 */}
-                            {/* add handleCopy() for the copy the text */}
+
                             <div
                                 className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
                                     }`}

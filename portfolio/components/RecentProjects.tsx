@@ -1,12 +1,12 @@
 "use client";
-import React from 'react'
-import { projects } from '@/data'
+import React from 'react';
+import { projects } from '@/data';
 import { FaLocationArrow } from "react-icons/fa6";
 import { PinContainer } from './ui/Pin';
 
 const RecentProjects = () => {
     return (
-        <div className='py-20' id='projects' >
+        <div className='py-20' id='projects'>
             <h1 className='heading'>
                 A small selection of {' '}
                 <span className='text-purple'>recent projects</span>
@@ -18,14 +18,13 @@ const RecentProjects = () => {
                         key={item.id}
                     >
                         <PinContainer
-                            title="/ui.aceternity.com"
-                            href="https://twitter.com/mannupaaji"
+                            title={item.title}
+                            href={item.webLink} // Change here to pass the correct link
+                            webname={item.webname}
+                            weblink={item.webLink}
                         >
-                            <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
-                                <div
-                                    className="relative w-full h-full overflow-hidden lg:rounded-3xl"
-                                    style={{ backgroundColor: "#13162D" }}
-                                >
+                            <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw]">
+                                <div className="h-[18rem] w-[100%] relative">
                                     <img src="/bg.png" alt="bgimg" />
                                 </div>
                                 <img
@@ -34,11 +33,9 @@ const RecentProjects = () => {
                                     className="z-10 absolute bottom-0"
                                 />
                             </div>
-
                             <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                                 {item.title}
                             </h1>
-
                             <p
                                 className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
                                 style={{
@@ -48,7 +45,6 @@ const RecentProjects = () => {
                             >
                                 {item.des}
                             </p>
-
                             <div className="flex items-center justify-between mt-7 mb-3">
                                 <div className="flex items-center">
                                     {item.iconLists.map((icon, index) => (
@@ -59,11 +55,10 @@ const RecentProjects = () => {
                                                 transform: `translateX(-${5 * index + 2}px)`,
                                             }}
                                         >
-                                            <img src={icon} alt="icon5" className="p-2" />
+                                            <img src={icon} alt="icon" className="p-2" />
                                         </div>
                                     ))}
                                 </div>
-
                                 <div className="flex justify-center items-center">
                                     <p className="flex lg:text-xl md:text-xs text-sm text-purple">
                                         Check Live Site
@@ -75,9 +70,8 @@ const RecentProjects = () => {
                     </div>
                 ))}
             </div>
-
         </div>
-    )
+    );
 }
 
-export default RecentProjects
+export default RecentProjects;
